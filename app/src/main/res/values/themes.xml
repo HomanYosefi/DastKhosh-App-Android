@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Dastkhosh" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- نوار وضعیت و ناوبری شفاف برای حالت Edge-to-Edge -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- پس‌زمینه پنجره هم‌رنگ با تم Compose تا فلش سفید/سیاه نبینیم -->
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+</resources>
